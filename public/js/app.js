@@ -28,7 +28,6 @@ movieForm.addEventListener('submit', async (e) => {
         })
 
 
-
     // fetch('/movie?search=' + movieSearch).then((response) => {
     //     response.json().then((data) => {
     //         if(data.error){

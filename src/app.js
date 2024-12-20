@@ -4,7 +4,7 @@ const hbs = require('hbs')
 const PORT = 3000
 const app = express()
 const lookUpMovie = require('./utils/movie.js')
-const similarMovies = require('./utils/similarmovies.js')
+// const similarMovies = require('./utils/similarmovies.js')
 
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
