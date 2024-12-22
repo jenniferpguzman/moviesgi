@@ -11,7 +11,7 @@ movieForm.addEventListener('submit', async (e) => {
     const movieSearch = search.value;
     // const movies = moviesElement.value;
 
-    messageOne.textContent = "Loading...";
+    // messageOne.textContent = "Loading...";
     messageTwo.innerHTML = '';
 
     fetch(`/movie?search=${movieSearch}`)

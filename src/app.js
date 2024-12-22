@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../public')))
 
 app.get('/',(req,res) => {
     res.render('index',{
-        title: "Movies",
+        title: "Find Your Movies!",
         name: "Jennifer Guzman"
     })
 })

@@ -26,7 +26,7 @@ const request = require('request');
     })
 };
 
-lookUpMovie('shrek', (error, data) => {
+lookUpMovie('', (error, data) => {
     if(error) {
         return console.log(error)
     }
